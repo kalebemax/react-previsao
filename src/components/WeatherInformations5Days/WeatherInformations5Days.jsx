@@ -28,7 +28,7 @@ function WeatherInformations5Days({ weather5Days }) {
           {next5Days.map(forecast => (
             <div key={forecast.dt} className='weather-item'>
               <p className='forecast-day'>{convertDate(forecast)}</p>
-              <img src={`http://openweathermap.org/img/wn/${forecast.weather[0].icon}.png`} alt="weather icon" />
+              <img src={`https://openweathermap.org/img/wn/${forecast.weather[0].icon}.png`} alt="weather icon" />
               <p className='forecast-description'>{forecast.weather[0].description}</p>
               <p>{Math.round(forecast.main.temp_min)}°C min / {Math.round(forecast.main.temp_max)}°C máx</p>
             </div>
