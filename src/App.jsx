@@ -13,7 +13,7 @@ function App() {
     const city = inputRef.current.value
     const key = "d368b957cb7f7e01439da980d7543fae"
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&lang=pt_br&units=metric`
-    const url5Days = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${key}&lang=pt_br&units=metric`
+    const url5Days = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${key}&lang=pt_br&units=metric`
     const apiInfo = await axios.get(url)
     const apiInfo5Days = await axios.get(url5Days)
     setweather5Days(apiInfo5Days.data)
