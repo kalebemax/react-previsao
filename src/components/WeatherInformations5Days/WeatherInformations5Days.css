@@ -1,0 +1,36 @@
+.weather-container {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(200, 200, 255, 0.8));
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+
+.weather-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+}
+
+.weather-item {
+    text-align: center;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+
+.forecast-day, .forecast-description {
+    text-transform: capitalize;
+    font-size: 1rem;
+}
