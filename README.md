@@ -1,48 +1,37 @@
-Previsão do Tempo
+# React Previsão
 
-Este é um aplicativo web de previsão do tempo que permite aos usuários consultarem informações meteorológicas em tempo real para qualquer localidade.
+Um aplicativo web de previsão do tempo desenvolvido com React.
 
-🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
+- React.js
+- TailwindCSS
+- API de Previsão do Tempo (exemplo: OpenWeatherMap)
 
-HTML
+## Funcionalidades
+- Busca de previsão do tempo por cidade.
+- Exibição de temperatura, umidade e condição climática.
+- Interface responsiva e intuitiva.
 
-CSS
+## Como Executar o Projeto
 
-JavaScript
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/kalebemax/react-previsao.git
+   ```
 
-TailwindCSS
+2. Acesse o diretório do projeto:
+   ```sh
+   cd react-previsao
+   ```
 
-API de Previsão do Tempo (ex: OpenWeatherMap ou outra API utilizada)
+3. Instale as dependências:
+   ```sh
+   npm install
+   ```
 
-Vercel (para hospedagem)
+## Contribuição
+Se deseja contribuir, fique à vontade para abrir uma *issue* ou enviar um *pull request*.
 
-🎯 Funcionalidades
 
-Buscar previsão do tempo por cidade
 
-Exibir temperatura, condição climática e outros dados meteorológicos
-
-Interface responsiva e moderna
-
-📦 Instalação e Uso
-
-Clone este repositório:
-
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-
-Acesse a pasta do projeto:
-
-cd nome-do-repositorio
-
-Abra o arquivo index.html no navegador ou utilize uma extensão como Live Server.
-
-🔗 Acesse o Projeto
-
-O projeto está hospedado no seguinte link: Previsão do Tempo
-
-📜 Licença
-
-Este projeto está licenciado sob a MIT License.
-
-Sinta-se à vontade para contribuir e melhorar este projeto! 😊
 
